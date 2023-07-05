@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.web_mysqli {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.web_mysqli li {
+    float: left;
+    margin: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.title_admin {
+    text-align: center;
+    font-size: 40px;
+    color: red;
+}
+
+.wrapper {
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* login */
+.containerbtn {
+    max-width: 700px;
+    margin: auto;
+}
+
+.cps-container {
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 10px;
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 700px;
+    position: relative;
+}
+
+#login-form .cps-login__image {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#login-form .cps-login__image .img {
+    height: 213px;
+}
+
+#login-form .cps-login-form {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#login-form .cps-login-form .login-form__title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.field:not(:last-child) {
+    margin-bottom: .75rem;
+}
+
+.form__group .field {
+    margin-top: 20px;
+    position: relative;
+}
+
+.form__group .field input {
+    border: 1px solid #fafafa;
+    border-radius: 3px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    color: #222;
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.form__group .group__item {
+    background: #fafafa;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.form__group .group__option {
+    margin-top: 15px;
+}
+
+.is-flex {
+    display: flex !important;
+}
+
+.form__group .group__option .forget-pass {
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.form__group .group__option .forget-pass {
+    color: #777;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.is-justify-content-center {
+    justify-content: center !important;
+}
+
+.btn-form__submit {
+    background: #fd2424;
+    border: .5px solid hsla(0, 0%, 47%, .5);
+    border-radius: 25px;
+    box-shadow: 0 4px 4px rgba(255, 0, 0, .2);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+    padding: 11px 0;
+    text-align: center;
+}
+
+#login-form .cps-login-form .line-through hr {
+    background-color: #dbdbdb;
+    width: 100%;
+}
+
+hr {
+    border: none;
+    display: block;
+    height: 2px;
+    margin: 1.5rem 0;
+}
+
+#login-form .cps-login-form .line-through p {
+    margin: 0 5px;
+}
+
+.is-fullwidth {
+    width: 100%;
+}
+
+#login-form .cps-login-form .line-through {
+    margin-top: 20px;
+}
+
+.is-align-items-center {
+    align-items: center !important;
+}
+
+.block-login-gg-fb {
+    text-align: center;
+}
+
+.block-login-gg-fb .login-gg-fb {
+    align-items: center;
+    border: 1px solid hsla(0, 0%, 79%, .5);
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 14px 0;
+}
+
+.block-login-gg-fb .login-gg-fb .login-gg-fb__icon {
+    height: 24px;
+    margin-right: 10px;
+}
+
+#login-form .login-question {
+    margin: 20px 0;
+}
+
+#login-form .promotion-link {
+    color: #f30;
+    display: block;
+    font-weight: 600;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+}
+
+.dropbtn {
+    background-color: #f30;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background: hsla(0, 0%, 100%, .2);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    margin-left: -18px;
+    margin-top: 5px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.show {
+    display: block;
+}
+.thongbao {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+}
+a.thongbaobtn {
+    padding: 25px;
+    background-color: #fff;
+    font-size: 18px;
+    color: #333;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+a.thongbaobtn:hover {
+    color: #f30;
+}
+/* thanhtoan */
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    width: 300px;
+    padding: 12px;
+    font-size: 15px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(100, 100, 100);
+}
+.btn.btn-default {
+    color: #fff;
+    background-color: #f30;
+    margin-left: 1px;
+    margin-top: 12px;
+    width: 170px;
+    font-size: 15px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
